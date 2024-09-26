@@ -3,7 +3,7 @@ import pickle
 import os
 
 
-model='lele.pkl'
+model='GBT_heartDisease_model.pkl'
 
 with open(model,'rb') as f:
     loaded_model=pickle.load(f)
